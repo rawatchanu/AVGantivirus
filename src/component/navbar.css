@@ -1,0 +1,134 @@
+.logo{
+    color: green;
+    font-size: 22px;
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    height: 70px;
+    box-shadow: 2px 1px 10px rgb(54, 54, 54);
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-family: 'Karla', sans-serif;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar button{
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: green;
+    border: 0;
+}
+.navbar button a{
+    text-decoration: none;
+    color: white;
+}
+.toggle{
+    display: none;
+    position: fixed;
+    right: -260px;
+    top: 68px;
+    flex-direction: column;
+    text-align: left;
+    width: 200px;
+    background-color: white;
+    height: 100vh;
+    padding: 5px 10px;
+    color: white;
+    transition: 0.5s;
+    font-family: poppins;
+    border-top: 1px solid green;
+}
+.toggle-icon{
+    display: none;
+}
+.position{
+
+    right: 0px;
+}
+.toggle ul .btn2{
+    
+    text-decoration: none;
+    margin-left: 0;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: green;
+    border: 0;
+    color: white;
+}
+.toggle ul{
+    list-style: none;
+
+}
+.toggle ul li{
+    margin-top: 20px;
+    position: relative;
+  
+}
+.toggle ul li a{
+    color: black;
+    text-decoration: none;
+}
+.toggle-ham{
+    font-size: 34px;
+}
+
+@media screen and (max-width:968px) {
+    .nav{
+        gap: 100px;
+        padding: 20px 80px;
+    }
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav{
+        gap: 50px;
+        padding: 20px 60px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .toggle{
+        display: flex;
+    }
+   
+    .toggle-icon{
+        display: flex;
+    }
+    .navbar button{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 540px) {
+   
+    .toggle-ham{
+        font-size: 30px;
+    }
+    .toggle{
+        top: 67px;
+    }
+}
+@media screen and (max-width: 320px) {
+   
+    .toggle-ham{
+        font-size: 30px;
+    }
+    .toggle{
+        top: 67px;
+        width: 300px;
+    }
+}
+
+

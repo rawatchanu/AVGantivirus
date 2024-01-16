@@ -1,0 +1,13 @@
+export {default as Navbar} from "./Navbar";
+export {default as Serbanner} from "./Serbanner";
+export {default as Hbanner} from "./Hbanner";
+export {default as About} from "./About";
+export {default as Post} from "./Post";
+export {default as Footer} from "./Footer";
+export {default as Services} from "./Services";
+export {default as Sbanner} from "./Sbanner";
+export {default as ServiceC} from "./ServiceC";
+export {default as Bbanner} from "./Bbanner";
+export {default as BlogC} from "./BlogC";
+export {default as ContactUs} from "./ContactUs";
+export {default as Abanner} from "./Abanner";
